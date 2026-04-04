@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>フィジーク女子ナビ | ビキニフィットネス・フィジーク・ボディビル女子選手情報</title>
+  <meta name="description" content="JBBF・FWJ・IFBBで活躍するビキニフィットネス・フィジーク・ボディビル女子選手の最新情報を毎日発信。大会結果、選手紹介、トレーニング情報をお届けします。">
+  <meta name="keywords" content="フィジーク女子,ビキニフィットネス,女子ボディビル,JBBF,FWJ,IFBB,安井友梨,荻島順子,筋トレ女子,フィットネス大会">
+  <meta property="og:title" content="フィジーク女子ナビ | ビキニフィットネス・フィジーク女子選手情報">
+  <meta property="og:description" content="JBBF・FWJ・IFBBで活躍する女子選手の最新情報を毎日発信するファンサイト">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://musclelove-777.github.io/physique-girls-navi/">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1550345332-09e3ac987658?w=1200&h=630&fit=crop">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@MuscleGirlLove7">
+  <meta name="twitter:title" content="フィジーク女子ナビ">
+  <meta name="twitter:description" content="ビキニフィットネス・フィジーク女子選手の最新情報を毎日発信">
+  <meta name="twitter:image" content="https://images.unsplash.com/photo-1550345332-09e3ac987658?w=1200&h=630&fit=crop">
+  <link rel="canonical" href="https://musclelove-777.github.io/physique-girls-navi/">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "フィジーク女子ナビ",
+    "url": "https://musclelove-777.github.io/physique-girls-navi/",
+    "description": "ビキニフィットネス・フィジーク・ボディビルで活躍する女子選手の最新情報を毎日発信するファンサイト",
+    "publisher": {
+      "@type": "Organization",
+      "name": "MuscleLove",
+      "url": "https://www.patreon.com/MuscleLove"
+    }
+  }
+  </script>
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    :root {
+      --bg: #0d1117;
+      --bg-card: #161b22;
+      --bg-card-hover: #1c2333;
+      --accent: #e91e63;
+      --accent-light: #f06292;
+      --text: #e6edf3;
+      --text-muted: #8b949e;
+      --border: #30363d;
+      --jbbf: #1976d2;
+      --fwj: #f57c00;
+      --ifbb: #7b1fa2;
+      --bikini: #e91e63;
+      --physique: #00897b;
+      --bodybuilding: #c62828;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans JP', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+    }
+    a { color: var(--accent-light); text-decoration: none; transition: color 0.2s; }
+    a:hover { color: var(--accent); }
+
+    /* Header */
+    .site-header {
+      background: linear-gradient(135deg, #0d1117 0%, #1a1a2e 100%);
+      border-bottom: 1px solid var(--border);
+      padding: 12px 0;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .header-inner {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .logo { font-size: 1.2rem; font-weight: 700; color: var(--accent); }
+    .header-nav a { margin-left: 20px; color: var(--text-muted); font-size: 0.9rem; }
+    .header-nav a:hover { color: var(--accent-light); }
+
+    /* Hero */
+    .hero {
+      position: relative;
+      min-height: 500px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      overflow: hidden;
+    }
+    .hero-bg {
+      position: absolute;
+      inset: 0;
+      background: url('https://images.unsplash.com/photo-1550345332-09e3ac987658?w=1400&h=600&fit=crop') center/cover;
+      filter: brightness(0.3);
+    }
+    .hero-content {
+      position: relative;
+      z-index: 2;
+      padding: 40px 20px;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: 900;
+      background: linear-gradient(135deg, var(--accent), var(--accent-light), #fff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      margin-bottom: 16px;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      color: var(--text-muted);
+      max-width: 600px;
+      margin: 0 auto 30px;
+    }
+    .hero-stats {
+      display: flex;
+      gap: 40px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .hero-stats .stat { text-align: center; }
+    .hero-stats .stat-num {
+      font-size: 2rem;
+      font-weight: 800;
+      color: var(--accent);
+    }
+    .hero-stats .stat-label { font-size: 0.85rem; color: var(--text-muted); }
+
+    /* Section */
+    .section {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 60px 20px;
+    }
+    .section-title {
+      font-size: 1.8rem;
+      font-weight: 800;
+      margin-bottom: 8px;
+    }
+    .section-sub {
+      color: var(--text-muted);
+      margin-bottom: 30px;
+    }
+
+    /* Filter Nav */
+    .filter-nav {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-bottom: 30px;
+    }
+    .filter-btn {
+      padding: 8px 18px;
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      background: transparent;
+      color: var(--text-muted);
+      cursor: pointer;
+      font-size: 0.9rem;
+      transition: all 0.2s;
+    }
+    .filter-btn:hover, .filter-btn.active {
+      background: var(--accent);
+      color: #fff;
+      border-color: var(--accent);
+    }
+    .filter-btn[data-filter="jbbf"].active { background: var(--jbbf); border-color: var(--jbbf); }
+    .filter-btn[data-filter="fwj"].active { background: var(--fwj); border-color: var(--fwj); }
+    .filter-btn[data-filter="ifbb"].active { background: var(--ifbb); border-color: var(--ifbb); }
+
+    /* Athlete Cards */
+    .athlete-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 20px;
+    }
+    .athlete-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      overflow: hidden;
+      transition: transform 0.2s, box-shadow 0.2s;
+      position: relative;
+    }
+    .athlete-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 30px rgba(233,30,99,0.15);
+    }
+    .athlete-card .accent-bar {
+      height: 4px;
+      width: 100%;
+    }
+    .accent-bar.jbbf { background: var(--jbbf); }
+    .accent-bar.fwj { background: var(--fwj); }
+    .accent-bar.ifbb { background: var(--ifbb); }
+    .card-body { padding: 20px; }
+    .card-body h3 { font-size: 1.15rem; margin-bottom: 2px; }
+    .card-body .en-name { font-size: 0.85rem; color: var(--text-muted); margin-bottom: 10px; }
+    .card-body .org-badge {
+      display: inline-block;
+      padding: 2px 10px;
+      border-radius: 10px;
+      font-size: 0.75rem;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 10px;
+    }
+    .org-badge.jbbf { background: var(--jbbf); }
+    .org-badge.fwj { background: var(--fwj); }
+    .org-badge.ifbb { background: var(--ifbb); }
+    .card-body .desc { font-size: 0.9rem; color: var(--text-muted); margin-bottom: 12px; line-height: 1.6; }
+    .card-tags { display: flex; gap: 6px; flex-wrap: wrap; }
+    .card-tags span {
+      font-size: 0.75rem;
+      padding: 3px 10px;
+      border-radius: 12px;
+      background: rgba(233,30,99,0.1);
+      color: var(--accent-light);
+      border: 1px solid rgba(233,30,99,0.2);
+    }
+
+    /* Blog Grid */
+    .blog-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+      gap: 24px;
+    }
+    .blog-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      overflow: hidden;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .blog-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 30px rgba(233,30,99,0.1);
+    }
+    .blog-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    .blog-card .blog-body { padding: 20px; }
+    .blog-card .blog-date { font-size: 0.8rem; color: var(--text-muted); margin-bottom: 8px; }
+    .blog-card h3 { font-size: 1.1rem; margin-bottom: 8px; }
+    .blog-card p { font-size: 0.9rem; color: var(--text-muted); line-height: 1.6; }
+    .blog-card .read-more {
+      display: inline-block;
+      margin-top: 12px;
+      color: var(--accent-light);
+      font-size: 0.9rem;
+      font-weight: 600;
+    }
+
+    /* Footer */
+    .site-footer {
+      border-top: 1px solid var(--border);
+      padding: 40px 20px;
+      text-align: center;
+      background: linear-gradient(135deg, #0d1117, #1a1a2e);
+    }
+    .footer-brand { font-size: 1.3rem; font-weight: 700; color: var(--accent); margin-bottom: 10px; }
+    .footer-links { margin: 16px 0; }
+    .footer-links a { margin: 0 12px; color: var(--text-muted); font-size: 0.9rem; }
+    .footer-copy { font-size: 0.8rem; color: var(--text-muted); margin-top: 16px; }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .hero h1 { font-size: 2rem; }
+      .hero { min-height: 400px; }
+      .athlete-grid { grid-template-columns: 1fr; }
+      .blog-grid { grid-template-columns: 1fr; }
+      .hero-stats { gap: 20px; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- Header -->
+<header class="site-header">
+  <div class="header-inner">
+    <div class="logo">フィジーク女子ナビ</div>
+    <nav class="header-nav">
+      <a href="#athletes">選手一覧</a>
+      <a href="#blog">ブログ</a>
+      <a href="https://x.com/MuscleGirlLove7" target="_blank" rel="noopener">X</a>
+      <a href="https://www.patreon.com/MuscleLove" target="_blank" rel="noopener">Patreon</a>
+    </nav>
+  </div>
+</header>
+
+<!-- Hero -->
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-content">
+    <h1>フィジーク女子ナビ</h1>
+    <p>ビキニフィットネス・フィジーク・ボディビルで輝く女子選手の最新情報を毎日発信</p>
+    <div class="hero-stats">
+      <div class="stat">
+        <div class="stat-num">12+</div>
+        <div class="stat-label">注目選手</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">3</div>
+        <div class="stat-label">主要団体</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">毎日</div>
+        <div class="stat-label">記事更新</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Athletes -->
+<section class="section" id="athletes">
+  <h2 class="section-title">注目選手</h2>
+  <p class="section-sub">JBBF・FWJ・IFBBで活躍する女子選手をピックアップ</p>
+
+  <div class="filter-nav">
+    <button class="filter-btn active" data-filter="all">すべて</button>
+    <button class="filter-btn" data-filter="jbbf">JBBF</button>
+    <button class="filter-btn" data-filter="fwj">FWJ</button>
+    <button class="filter-btn" data-filter="ifbb">IFBB</button>
+    <button class="filter-btn" data-filter="bikini">ビキニ</button>
+    <button class="filter-btn" data-filter="physique">フィジーク</button>
+    <button class="filter-btn" data-filter="bodybuilding">ボディビル</button>
+  </div>
+
+  <div class="athlete-grid">
+
+    <div class="athlete-card" data-tags="jbbf,bikini,ifbb">
+      <div class="accent-bar jbbf"></div>
+      <div class="card-body">
+        <h3>安井 友梨</h3>
+        <div class="en-name">Yuri Yasui</div>
+        <span class="org-badge jbbf">JBBF</span>
+        <p class="desc">ビキニフィットネス日本選手権9連覇の女王。2023年IFBB世界選手権で日本人初の世界一に輝いた。元外資系銀行員という異色の経歴も話題。</p>
+        <div class="card-tags">
+          <span>ビキニ</span><span>日本チャンピオン</span><span>世界王者</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="athlete-card" data-tags="jbbf,physique">
+      <div class="accent-bar jbbf"></div>
+      <div class="card-body">
+        <h3>荻島 順子</h3>
+        <div class="en-name">Junko Ogishima</div>
+        <span class="org-badge jbbf">JBBF</span>
+        <p class="desc">2024年日本女子フィジーク選手権チャンピオン。圧倒的なコンディショニングと美しいポージングで3連覇を狙う実力者。</p>
+        <div class="card-tags">
+          <span>フィジーク</span><span>日本チャンピオン</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="athlete-card" data-tags="jbbf,physique">
+      <div class="accent-bar jbbf"></div>
+      <div class="card-body">
+        <h3>澤田 めぐみ</h3>
+        <div class="en-name">Megumi Sawada</div>
+        <span class="org-badge jbbf">JBBF</span>
+        <p class="desc">2024年日本女子フィジーク選手権2位。バランスの取れた筋量と美しいアウトラインで毎年上位に食い込む実力派。</p>
+        <div class="card-tags">
+          <span>フィジーク</span><span>上位常連</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="athlete-card" data-tags="jbbf,physique">
+      <div class="accent-bar jbbf"></div>
+      <div class="card-body">
+        <h3>原田 理香</h3>
+        <div class="en-name">Rika Harada</div>
+        <span class="org-badge jbbf">JBBF</span>
+        <p class="desc">2024年日本女子フィジーク選手権3位入賞。年々進化するフィジークで頂点を目指し続けるベテラン選手。</p>
+        <div class="card-tags">
+          <span>フィジーク</span><span>トップ3</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="athlete-card" data-tags="jbbf,bikini">
+      <div class="accent-bar jbbf"></div>
+      <div class="card-body">
+        <h3>佐々木 絢美</h3>
+        <div class="en-name">Ayami Sasaki</div>
+        <span class="org-badge jbbf">JBBF</span>
+        <p class="desc">ボディフィットネスカテゴリーで圧倒的な存在感を放つ選手。洗練されたステージパフォーマンスが魅力。</p>
+        <div class="card-tags">
+          <span>ボディフィットネス</span><span>注目株</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="athlete-card" data-tags="fwj,bikini">
+      <div class="accent-bar fwj"></div>
+      <div class="card-body">
+        <h3>竹内 よう子</h3>
+        <div class="en-name">Yoko Takeuchi</div>
+        <span class="org-badge fwj">FWJ</span>
+        <p class="desc">FWJビキニカテゴリーのトップ選手。華やかなステージングと完成度の高いプロポーションで観客を魅了する。</p>
+        <div class="card-tags">
+          <span>ビキニ</span><span>FWJトップ</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="athlete-card" data-tags="fwj,physique">
+      <div class="accent-bar fwj"></div>
+      <div class="card-body">
+        <h3>山野内 里子</h3>
+        <div class="en-name">Satoko Yamanouchi</div>
+        <span class="org-badge fwj">FWJ</span>
+        <p class="desc">FWJウィメンズフィジークで活躍。IFBBプロカードの獲得を目指し、海外大会にも積極的に挑戦している。</p>
+        <div class="card-tags">
+          <span>フィジーク</span><span>プロ志望</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="athlete-card" data-tags="ifbb,bikini">
+      <div class="accent-bar ifbb"></div>
+      <div class="card-body">
+        <h3>MIKA</h3>
+        <div class="en-name">Mika</div>
+        <span class="org-badge ifbb">IFBB</span>
+        <p class="desc">日本人IFBBビキニプロ選手。海外プロステージでの経験を積み、日本のビキニフィットネスの可能性を世界に示す。</p>
+        <div class="card-tags">
+          <span>ビキニ</span><span>IFBBプロ</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="athlete-card" data-tags="fwj,bikini">
+      <div class="accent-bar fwj"></div>
+      <div class="card-body">
+        <h3>田上 舞子</h3>
+        <div class="en-name">Maiko Tagami</div>
+        <span class="org-badge fwj">FWJ</span>
+        <p class="desc">人気フィットネスYouTuberとしても活躍するビキニ選手。SNSでのトレーニング発信でフィットネス女子人口拡大に貢献。</p>
+        <div class="card-tags">
+          <span>ビキニ</span><span>YouTuber</span><span>インフルエンサー</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="athlete-card" data-tags="jbbf,bodybuilding">
+      <div class="accent-bar jbbf"></div>
+      <div class="card-body">
+        <h3>山口 陽子</h3>
+        <div class="en-name">Yoko Yamaguchi</div>
+        <span class="org-badge jbbf">JBBF</span>
+        <p class="desc">JBBFの女子ボディビルカテゴリーで長年活躍するベテラン。日本女子ボディビルの歴史を支えるレジェンド的存在。</p>
+        <div class="card-tags">
+          <span>ボディビル</span><span>ベテラン</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="athlete-card" data-tags="fwj,physique,ifbb">
+      <div class="accent-bar fwj"></div>
+      <div class="card-body">
+        <h3>松生 恵里</h3>
+        <div class="en-name">Eri Matsuo</div>
+        <span class="org-badge fwj">FWJ</span>
+        <p class="desc">FWJからIFBBプロカードを獲得した注目のウィメンズフィジーク選手。海外でも通用するハイレベルな筋量が武器。</p>
+        <div class="card-tags">
+          <span>フィジーク</span><span>IFBBプロ</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="athlete-card" data-tags="jbbf,bikini">
+      <div class="accent-bar jbbf"></div>
+      <div class="card-body">
+        <h3>渡辺 実弥</h3>
+        <div class="en-name">Miya Watanabe</div>
+        <span class="org-badge jbbf">JBBF</span>
+        <p class="desc">JBBFビキニフィットネスの新星。若手ながら全日本大会で上位入賞を果たし、次世代のビキニ女王候補として注目。</p>
+        <div class="card-tags">
+          <span>ビキニ</span><span>若手注目</span><span>新星</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- Blog -->
+<section class="section" id="blog">
+  <h2 class="section-title">最新記事</h2>
+  <p class="section-sub">大会情報・選手ニュース・トレーニング情報を毎日更新</p>
+
+  <div class="blog-grid">
+
+    <a href="articles/2026-04-04-jbbf-2026-schedule.html" class="blog-card">
+      <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=600&h=300&fit=crop" alt="JBBF 2026大会スケジュール" loading="lazy">
+      <div class="blog-body">
+        <div class="blog-date">2026-04-04</div>
+        <h3>【速報】JBBF 2026年度大会スケジュール発表！女子フィジーク選手権は10月大阪開催</h3>
+        <p>JBBFが2026年度の主催大会スケジュールを発表。女子フィジーク選手権は10月11日に大阪メイシアターで開催決定...</p>
+        <span class="read-more">続きを読む &rarr;</span>
+      </div>
+    </a>
+
+    <a href="articles/2026-04-04-yasui-yuri-season.html" class="blog-card">
+      <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?w=600&h=300&fit=crop" alt="安井友梨 2026シーズン" loading="lazy">
+      <div class="blog-body">
+        <div class="blog-date">2026-04-04</div>
+        <h3>安井友梨、2026シーズンに向けオフ明けトレーニング開始！10連覇への挑戦</h3>
+        <p>ビキニフィットネス9連覇中の安井友梨選手がオフシーズンを終え、2026シーズンの本格準備をスタート...</p>
+        <span class="read-more">続きを読む &rarr;</span>
+      </div>
+    </a>
+
+    <a href="articles/2026-04-04-fwj-2026-season-open.html" class="blog-card">
+      <img src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=600&h=300&fit=crop" alt="FWJ 2026シーズン" loading="lazy">
+      <div class="blog-body">
+        <div class="blog-date">2026-04-04</div>
+        <h3>FWJ 2026シーズン開幕！ビキニ・フィジーク注目の大会ラインナップ</h3>
+        <p>FWJ（Fitness World Japan）の2026年シーズンが本格始動。ディスカバリーチャンピオンシップスを皮切りに...</p>
+        <span class="read-more">続きを読む &rarr;</span>
+      </div>
+    </a>
+
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="site-footer">
+  <div class="footer-brand">MuscleLove</div>
+  <p style="color: var(--text-muted); font-size: 0.9rem;">フィジーク女子ナビ - 輝く女子選手を毎日応援</p>
+  <div class="footer-links">
+    <a href="https://x.com/MuscleGirlLove7" target="_blank" rel="noopener">X (@MuscleGirlLove7)</a>
+    <a href="https://www.patreon.com/MuscleLove" target="_blank" rel="noopener">Patreon</a>
+  </div>
+  <div class="footer-copy">&copy; 2026 MuscleLove. All rights reserved.</div>
+</footer>
+
+<!-- Filter JS -->
+<script>
+(function() {
+  const btns = document.querySelectorAll('.filter-btn');
+  const cards = document.querySelectorAll('.athlete-card');
+  btns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      btns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      const filter = btn.dataset.filter;
+      cards.forEach(card => {
+        if (filter === 'all') {
+          card.style.display = '';
+        } else {
+          const tags = card.dataset.tags || '';
+          card.style.display = tags.includes(filter) ? '' : 'none';
+        }
+      });
+    });
+  });
+})();
+</script>
+
+</body>
+</html>
