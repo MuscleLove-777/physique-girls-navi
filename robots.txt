@@ -2,3 +2,6 @@ User-agent: *
 Allow: /
 
 Sitemap: https://musclelove-777.github.io/physique-girls-navi/sitemap.xml
+
+# AI crawlers
+Llms: https://musclelove-777.github.io/physique-girls-navi/llms.txt
