@@ -8,25 +8,8 @@
 - X: @MuscleGirlLove7
 - Patreon: https://www.patreon.com/MuscleLove
 
-## 掲載対象選手リスト
-
-### JBBF
-- 安井 友梨 (Yuri Yasui) - ビキニフィットネス9連覇、IFBB世界王者
-- 荻島 順子 (Junko Ogishima) - 女子フィジーク日本チャンピオン
-- 澤田 めぐみ (Megumi Sawada) - 女子フィジーク上位常連
-- 原田 理香 (Rika Harada) - 女子フィジークトップ3
-- 佐々木 絢美 (Ayami Sasaki) - ボディフィットネス
-- 山口 陽子 (Yoko Yamaguchi) - 女子ボディビル
-- 渡辺 実弥 (Miya Watanabe) - ビキニフィットネス若手
-
-### FWJ
-- 竹内 よう子 (Yoko Takeuchi) - ビキニ
-- 山野内 里子 (Satoko Yamanouchi) - ウィメンズフィジーク
-- 田上 舞子 (Maiko Tagami) - ビキニ / インフルエンサー
-- 松生 恵里 (Eri Matsuo) - ウィメンズフィジーク / IFBBプロ
-
-### IFBB
-- MIKA - ビキニプロ
+## 掲載対象（ロスター）
+記事対象の選手リストは必ず `references/roster.md` を読んで参照すること。リストの追加・更新もそのファイルに対して行う。
 
 ## 記事生成ルール
 
@@ -129,6 +112,7 @@ physique-girls-navi/
     <div style="display:flex;flex-wrap:wrap;gap:10px;justify-content:center;">
       <a href="https://x.com/MuscleGirlLove7" target="_blank" rel="noopener" style="display:inline-block;padding:10px 18px;background:#1d9bf0;color:#fff;border-radius:6px;font-weight:800;text-decoration:none;">X @MuscleGirlLove7</a>
       <a href="https://www.patreon.com/MuscleLove" target="_blank" rel="noopener" style="display:inline-block;padding:10px 18px;background:#ff424d;color:#fff;border-radius:6px;font-weight:800;text-decoration:none;">Patreon 限定コンテンツ</a>
+      <a href="https://musclelove-games.vercel.app/?utm_source=blog&amp;utm_medium=promo_card&amp;utm_campaign=physique-girls-navi" target="_blank" rel="noopener" style="display:inline-block;padding:10px 18px;background:#22c55e;color:#0b1220;border-radius:6px;font-weight:800;text-decoration:none;">🎮 無料ゲーム95本</a>
     </div>
   </div>
 </section>
@@ -191,4 +175,4 @@ physique-girls-navi/
 6. git add, commit, push
 
 ## 広告カード必須ルール
-- 全記事とindex.htmlのフッター直前に MuscleLove広告カード（ML_PROMO_CARDマーカー）を必ず含める（テンプレのカードHTML参照）。
+- 全記事とindex.htmlのフッター直前に MuscleLove広告カード（ML_PROMO_CARDマーカー）を必ず含める（テンプレのカードHTML参照）。広告カードにはX / Patreon / ゲームポータルの3導線を必ず入れる。
